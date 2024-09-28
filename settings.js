@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=yBkSUSaQ#HiejIMH0AI2NzUag-Z-mquC5D0X-M4Ij0qmamGYdpvo' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=3NdUxYLK#6hfVYL9UkGfGUvWQCjqJVCyiYDri18wmLrfSF8f-Fd0' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94717120796' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'true' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
@@ -35,7 +35,7 @@ ANTI_CALL: process.env.ANTI_CALL || false  ,
 AI_CHATBOT: process.env.AI_CHATBOT || false  ,
 AI_IMAGE: process.env.AI_IMAGE || false  ,
 MATHS_AI: process.env.MATHS_AI || false  ,    
-WELCOME: process.env.WELCOME || false  ,    
+WELCOME: process.env.WELCOME || true  ,    
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,         
 LOGO: process.env.LOGO || `https://telegra.ph/file/cce13b56a460afc9f4139.jpg` ,
